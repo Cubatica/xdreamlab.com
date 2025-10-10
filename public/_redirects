@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects and routing
+/start /start/index.html 200
+/start/ /start/index.html 200
