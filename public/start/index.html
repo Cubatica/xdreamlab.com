@@ -234,7 +234,7 @@
     ></script>
   </head>
   <body
-    onclick="fbq('trackCustom', 'ViewContent'); window.open('https://clk.findyouraibuddy.com/click', '_blank');"
+    onclick="if(event.target.tagName !== 'A') { fbq('trackCustom', 'ViewContent'); window.location.href='https://clk.findyouraibuddy.com/click'; }"
     style="cursor: pointer"
   >
     <div class="container">
@@ -243,7 +243,7 @@
         Chat with realistic AI characters. Unlimited conversations and custom
         personalities.
       </p>
-      <a href="https://clk.findyouraibuddy.com/click" class="cta-button"
+      <a href="https://clk.findyouraibuddy.com/click" class="cta-button" target="_blank" onclick="fbq('trackCustom', 'ViewContent');"
         >Start Creating Your Dream Companion</a
       >
     </div>
