@@ -42,13 +42,6 @@
       fbq("init", "1990128208428985");
       fbq("track", "PageView");
     </script>
-    <script>
-      // Track clicks to the /click URL
-      document.addEventListener('click', function(e) {
-        // Track custom ViewContent event when user clicks
-        fbq('trackCustom', 'ViewContent');
-      });
-    </script>
     <noscript>
       <img
         height="1"
@@ -241,7 +234,7 @@
     ></script>
   </head>
   <body
-    onclick="window.location.href='https://clk.findyouraibuddy.com/click'"
+    onclick="fbq('trackCustom', 'ViewContent'); window.open('https://clk.findyouraibuddy.com/click', '_blank');"
     style="cursor: pointer"
   >
     <div class="container">
