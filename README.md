@@ -1,4 +1,4 @@
-# Find Your AI Buddy
+# X Dream Lab
 
 This project hosts a landing page at `/start` for the AI companion service.
 
