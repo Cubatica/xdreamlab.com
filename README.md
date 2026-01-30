@@ -36,7 +36,7 @@ npm install -g wrangler
 wrangler login
 
 # Deploy to Cloudflare Pages
-wrangler pages deploy public --project-name=findyouraibuddy
+wrangler pages deploy public --project-name=xdreamlab
 ```
 
 ### Option 3: Drag & Drop Upload
@@ -44,7 +44,7 @@ wrangler pages deploy public --project-name=findyouraibuddy
 1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/)
 2. Navigate to **Workers & Pages** → **Create Application** → **Pages** → **Upload assets**
 3. Drag and drop the `public` folder
-4. Set project name: `findyouraibuddy`
+4. Set project name: `xdreamlab`
 5. Click **Save and Deploy**
 
 ## Local Testing
